@@ -5412,7 +5412,8 @@ Procfile
 web: node server.js
 ```
 
-- rm -rf .git
+- rm -rf .git (Mac)
+- rmdir -Force -Recurse .git (Windows)
 - git init
 - git add .
 - git commit -m "first commit"
